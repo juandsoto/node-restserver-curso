@@ -42,7 +42,7 @@ app.put('/usuario/:id', (req, res) => {
 });
 
 app.delete('/usuario', (req, res) => {
-    res.json('delete Usuario');
+    res.json('deleted Usuario');
 });
 
 app.listen(process.env.PORT, () => {
