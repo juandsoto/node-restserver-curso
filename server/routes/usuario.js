@@ -94,7 +94,6 @@ app.delete('/usuario/:id', [verificaToken, verificaAdmin_Role], (req, res) => {
             ok: true,
             usuario: usuarioBorrado
         });
-        // });
     });
 });
 
